@@ -1,0 +1,41 @@
+#content_box {
+    width: 200px; /* si riferisce al content */
+    height: 200px;
+    background-color: blue;
+    padding: 50px;
+    border: 10px solid black;
+}
+
+
+
+#border_box {
+    width: 200px; /* si riferisce alle dimensioni finali, quindi comprensive di border e padding */
+    height: 200px;
+    background-color: red;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+    display: none;
+}
+
+
+#prova_display {
+    background-color: yellow;
+    display: inline-block;
+    width: 300px;
+    height: 500px;
+}
+
+#div_rosso { /* vale meno di attributo style nel tag */
+    background-color: red;
+}
+
+
+.blu {  /* vale meno di id */
+    background-color: blue;
+}
+
+
+div {  /* vale meno di classe */
+    background-color: purple;
+}
